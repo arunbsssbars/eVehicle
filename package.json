@@ -1,0 +1,20 @@
+{
+  "name": "evehicle-logbook-monorepo",
+  "version": "1.0.0",
+  "description": "eVehicle LogBook - Enterprise Fleet & Journey Management Platform",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix backend run start:dev",
+    "start": "npm --prefix backend run start",
+    "start:dev": "npm --prefix backend run start:dev",
+    "build": "npm --prefix backend run build",
+    "backend": "npm --prefix backend run start:dev",
+    "backend:build": "npm --prefix backend run build",
+    "backend:install": "npm --prefix backend install",
+    "flutter:get": "flutter pub get",
+    "flutter:test": "flutter test",
+    "flutter:run": "flutter run",
+    "flutter:web": "flutter run -d chrome",
+    "flutter:analyze": "flutter analyze --no-fatal-infos"
+  }
+}
